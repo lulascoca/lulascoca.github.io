@@ -2,7 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
-}	
+}
 */
 
 body{
@@ -10,18 +10,18 @@ body{
 	font-size: 20px;
 	font-weight: 700;
 	/* font: 700 20px sans-serif; this is the same as above */
-	background-color: #af9a99;
-	color: #555555;  
+	background-color: #cadbf7;
+	color: #cyan;
 	line-height: 1.6em;
 	margin: 2px;
 }
 a{
-	color:#555555;
+	color: cadetblue;
 	text-decoration: none;
 }
 
 a:hover{
-	color: red;
+	color: #b27efc;
 }
 
 /* classes can be used multiple times, id's are unique */
@@ -32,9 +32,9 @@ a:hover{
 }
 
 .article{
-	background-color: #333333;
+	background-color: aquamarine;
 	color: #fff;
-	border: 5px red solid; 
+	border: 5px solid;
 	border-bottom-style:dotted;
 	padding: 20px;
 	margin-top: 20px;
@@ -69,7 +69,7 @@ a:hover{
 .my-form input[type="text"], .my-form textarea{
 	padding: 8px;
 	width: 40%;
-	border-color: red;
+	border-color: white;
 	border-width: 2px;
 }
 
