@@ -1,0 +1,124 @@
+/*
+{
+	margin: 0;
+	padding: 0;
+}	
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	/* font: 700 20px sans-serif; this is the same as above */
+	background-color: #af9a99;
+	color: #555555;  
+	line-height: 1.6em;
+	margin: 2px;
+}
+a{
+	color:#555555;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+/* classes can be used multiple times, id's are unique */
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.article{
+	background-color: #333333;
+	color: #fff;
+	border: 5px red solid; 
+	border-bottom-style:dotted;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.article h3{
+	font-family:sans-serif;
+	font-weight: 800;
+	font-style:italic;
+	text-decoration: underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+}
+
+.my-form{
+	padding: 20px;
+}
+
+.name{
+	padding-bottom: none;
+}
+
+.form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display:block; /*blocks are on separate lines*/
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 40%;
+	border-color: red;
+	border-width: 2px;
+}
+
+/*.my-form textarea{
+	padding: 8px;
+	width: 100%;
+	border-color: red;
+	border-width: 2px;
+}*/
+
+.my-form input[type="submit"]{
+	background-color: #99ff33;
+	color: #004d00;
+	padding: 10px 15px;
+	border-color: #004d00;
+	margin-left: 100px;
+	font-family: sans-serif;
+	}
+
+.my-form input[type="submit"]:hover{
+	background-color: #004d00;
+	color: white;
+}
+
+.categories{
+	padding: 20px;
+	border:1px #ccc solid;
+	border-radius: 35px;
+	margin: 3px;
+}
+
+.categories h3{
+	text-align: left;
+	font-family:sans-serif;
+	font-weight: 800;
+	letter-spacing:0.2em;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.categories ul{
+	list-style: none;
+	padding: 0;
+	position:relative;
+	left: 30px;
+}
+
+.categories li{
+	padding-bottom: 6px;;
+	list-style-image: url(../images/red.png);
+}
